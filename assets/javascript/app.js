@@ -29,7 +29,6 @@ function newButton () {
     return false;
     });
     }
-// Create a function to Remake topic buttons
 // Create a function that displays all of the gifs
 function displayGif(){
     var topic = $(this).attr("data-name");
@@ -67,7 +66,6 @@ function displayGif(){
 
 displayGifButtons();
 newButton();
-displayGif();
 
 //Listenrs
 

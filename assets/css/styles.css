@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+#gifbutton {
+    float: left;
+}
+
+#gifcontainer {
+    float: left;
+    margin-left: 10%;
+}
+
+#form{
+    float: right;
+    margin-left: 10%;
+}
+
+p {
+    text-align: center;
+}
