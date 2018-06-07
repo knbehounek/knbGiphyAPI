@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 //Array of topics, allow new topcs to be pushed into this array
-var topics = ['Dragons', 'Games', 'Eating' ]
+var topics = ['Dragons', 'Games', 'Eating', 'Anime', 'Star Wars', 'World of Warcraft', 'Matrix', 'Legos', 'Iron Man', 'Off Roading' ]
 
 // Create a function that displays all gif buttons
 function displayGifButtons(){

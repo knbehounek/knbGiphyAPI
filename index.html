@@ -18,34 +18,36 @@
     <!-- Buttons  -->
     <div id="gifButton" class="container">
     </div>
-    <!-- Contianer  -->
-    <div class="row">
-        <div class= "container col-md-1"></div>
-        <div class="container col-md-4" id = "gifcontainer">
-            <div>
-                <!-- Gifs  -->
-                <div id="gifView"></div>
+
+
+    <!-- Topic Form  -->
+    <div class="container" id="form">
+        <form id="gifform" role="form">
+            <h2>
+                Topic Submission
+            </h2>
+            <div class="form-group">
+                <label for="topic-input">Add your topic below</label>
+                <input type="text" id="topic-input">
             </div>
-        </div>
+            <input id="addGif" type="submit" value="Add your topic" class="btn btn-primary">
 
-        <!-- Topic Form  -->
-        <div class = "container" id="form">
-            <form id="gifform" role="form">
-                <h2>
-                    Topic Submission
-                </h2>
-                <div class="form-group">
-                    <label for="topic-input">Add your topic below</label>
-                    <input type="text" id="topic-input">
-                </div>
-                <input id="addGif" type="submit" value="Add your topic" class="btn btn-primary">
+        </form>
+    </div>
 
-            </form>
+    <!-- Contianer  -->
+
+    <div class="container" id="gifcontainer">
+        <div>
+            <!-- Gifs  -->
+            <div id="gifView"></div>
         </div>
-        <div class =" container col-md-2"></div>
     </div>
 
     <!-- Footer  -->
+    <footer class="footer">
+        Copyright ©
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
